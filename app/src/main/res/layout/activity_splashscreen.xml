@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebkgrnd"
+    tools:context="com.example.rcjoshi.gameapplication.Splashscreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="134dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="137dp"
+        android:layout_marginTop="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="304dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/progressBar4"
+        android:layout_alignStart="@+id/logo" />
+
+</RelativeLayout>

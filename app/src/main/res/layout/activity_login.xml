@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gamebkgrnd"
+    tools:context="com.example.rcjoshi.gameapplication.Login">
+
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Login Page"
+        android:textColor="@color/titlecolor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/proflogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/proflogo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+    <!--
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:background="@android:drawable/alert_light_frame"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+    -->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:textSize="24sp" />
+
+</LinearLayout>

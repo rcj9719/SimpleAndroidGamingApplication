@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gamebkgrnd"
+    tools:context="com.example.rcjoshi.gameapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="U"
+        android:textColor="@color/titlecolor"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b00"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b10"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b20"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b01"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b11"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b21"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b02"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b12"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/b22"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:textSize="@dimen/textsize"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/meid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="ME"
+        android:textColor="@color/titlecolor"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+</LinearLayout>
